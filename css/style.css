@@ -719,11 +719,8 @@ img {
   color: var(--header-color);
 }
 
-.div-subscribe {
-  margin-left: 80px;
-}
-
 .subscribe {
+  margin-left: 80px;
   margin-bottom: 16px;
   font-style: normal;
   font-weight: 500;
@@ -735,6 +732,7 @@ img {
 
 .mail-input {
   display: flex;
+  margin-left: 56px;
 }
 
 .form-sub {

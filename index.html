@@ -27,11 +27,15 @@
             >web<span class="logo-studio">Studio</span></a
           >
           <ul class="menu-list link list">
-            <li class="menu-lodo"><a href="./index.html" class="menu-item current link">Studio</a></li>
+            <li class="menu-lodo">
+              <a href="./index.html" class="menu-item current link">Studio</a>
+            </li>
             <li class="menu-lodo">
               <a href="./portfolio.html" class="menu-item link">Portfolio</a>
             </li>
-            <li class="menu-lodo"><a href="" class="menu-item link">Contacts</a></li>
+            <li class="menu-lodo">
+              <a href="" class="menu-item link">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="address">
@@ -55,8 +59,9 @@
       <section class="title-top-section section">
         <div class="container">
           <h1 class="title">Effective Solutions for Your Business</h1>
-          <button data-modal-open class="button-top" type="button">Order Service</button>
-          
+          <button data-modal-open class="button-top" type="button">
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -392,32 +397,38 @@
           </ul>
         </div>
         <div class="div-subscribe">
-          <p class="subscribe">
-            Subscribe
-          </p>
+          <p class="subscribe">Subscribe</p>
           <div class="mail-input">
-          <form action="" class="form-sub">
-            <label for="">
-            </label>
-            <input class="input"type="email">
-            <button type="submit" class="but-sub">Subscribe
-              <svg width="24" height="24" class="icon-sub">
-                <use href="./images/icons.svg#icon-icon-send"></use>
-              </svg>
-            </button>
-          </form>
+            <form class="form-sub">
+              <label for=""> </label>
+              <input name="" class="input" type="email" />
+              <button type="submit" class="but-sub">
+                Subscribe
+                <svg width="24" height="24" class="icon-sub">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </div>
     </footer>
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
-        <button data-modal-close type="button" class="button-close"><svg  width="8" height="8" class="icon-close">
-          <use href="./images/icons.svg#icon-Vector">
-          </use>
-        </svg></button>
+        <button data-modal-close type="button" class="button-close">
+          <svg width="8" height="8" class="icon-close">
+            <use href="./images/icons.svg#icon-Vector"></use>
+          </svg>
+        </button>
+        <p class="form-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <input type="text">
+          <input type="text">
+          <input type="text">
+          <input type="text">
+        </form>
       </div>
-      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>

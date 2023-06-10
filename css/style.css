@@ -653,7 +653,6 @@ img {
 
 .div-subscribe {
   margin-left: 80px;
-  gap: 24px;
 }
 
 .subscribe {
@@ -689,6 +688,7 @@ img {
 }
 
 .but-sub {
+  margin-left: 24px;
   min-width: 165px;
   height: 40px;
   display: flex;

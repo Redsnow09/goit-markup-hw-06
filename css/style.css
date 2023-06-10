@@ -648,3 +648,26 @@ background-color: var(--buttom-color);
   margin-bottom: 16px;
   color: var(--header-color);
 }
+
+.div-subscribe {
+  padding-left: 80px;
+  
+}
+
+.subscribe {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+color: var(--header-color);
+}
+
+.form-sub {
+  display: flex;
+  gap:24px;
+}
+
+.but-sub {
+
+}

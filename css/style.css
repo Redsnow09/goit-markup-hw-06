@@ -556,12 +556,30 @@ img {
   margin-bottom: 8px;
   padding-left: 7px;
   color: var(--button);
-  
+
 }
 
 .modal-input::placeholder {
-
+display: flex;
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color:color: rgba(46, 47, 66, 0.4);
 }
+
+.modal-coment {
+  height: 120px;
+  width: 100%;
+  padding-left: 16px;
+  padding-top: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  color: var(--button);
+}
+
+
 
 .backdrop.is-hidden.modal {
   transform: translate(-50%, -50%) scale(0);

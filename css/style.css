@@ -553,9 +553,13 @@ img {
   width: 100%;
   height: 40px;
   border-radius: 4px;
-  padding-left: 7px;
+  padding-left: 38px;
   outline: transparent;
-  color: var(--button);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.modal-input:focus + .modal-icon {
+  fill: var(--button);
 }
 
 .modal-input::placeholder {
@@ -564,7 +568,6 @@ img {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
 }
 
 .input-label {
@@ -594,9 +597,9 @@ img {
   height: 120px;
   width: 100%;
   padding-left: 16px;
-  padding-top: 8px;
   border-radius: 4px;
   margin-bottom: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   color: var(--button);
 }
 

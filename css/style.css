@@ -664,9 +664,15 @@ background-color: var(--buttom-color);
 color: var(--header-color);
 }
 
-.form-sub {
+.mail-input {
   display: flex;
   gap:24px;
+  
+}
+
+.form-sub {
+  display: flex;
+  
 }
 
 .but-sub {

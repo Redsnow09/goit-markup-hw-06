@@ -554,8 +554,13 @@ img {
   height: 40px;
   border-radius: 4px;
   margin-bottom: 8px;
+  padding-left: 7px;
   color: var(--button);
   
+}
+
+.modal-input::placeholder {
+
 }
 
 .backdrop.is-hidden.modal {

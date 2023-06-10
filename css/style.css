@@ -655,6 +655,7 @@ background-color: var(--buttom-color);
 }
 
 .subscribe {
+  margin-bottom: 16px; 
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -690,5 +691,5 @@ color: var(--header-color);
 .icon-sub
 {
   margin-left: 16px;
-  
+
 }

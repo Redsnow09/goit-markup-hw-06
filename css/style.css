@@ -583,6 +583,10 @@ img {
   position: relative; 
 }
 
+.text-comment {
+  width: 100%; 
+}
+
 .input-label {
   display: block; 
   margin-bottom: 4px; 

@@ -640,6 +640,7 @@ img {
   align-items: center; 
   justify-content: center; 
   fill: transparent;
+  background-color:var(--buttom-color)
 
 }
 

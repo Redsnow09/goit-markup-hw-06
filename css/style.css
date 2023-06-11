@@ -554,7 +554,7 @@ img {
 }
 
 .input-icon:focus-within svg {
-  color:var(--button);
+  fill:var(--button);
 }
 
 

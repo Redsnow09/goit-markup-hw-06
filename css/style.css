@@ -619,6 +619,10 @@ img {
   margin-bottom: 24px;
 }
 
+.checkbox {
+  visibility: hidden;
+}
+
 .label-privacy {
   font-size: 12px; 
   line-height: 1.17; 
@@ -636,7 +640,7 @@ img {
   align-items: center; 
   justify-content: center; 
   fill: transparent;
-  
+
 }
 
 .but-submit {

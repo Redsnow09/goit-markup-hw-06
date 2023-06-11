@@ -628,7 +628,6 @@ img {
 }
 
 .label-privacy span {
-  display: inline-flex; 
   color: var(--company);
 }
 
@@ -648,9 +647,8 @@ img {
 
 .visually-hidden:checked + .label-privacy span {
   background-color: var(--buttom-color);
-  border: none; 
+  border: none;
   fill: var(--btn-color);
-  
 }
 
 .privacy-link {

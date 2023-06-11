@@ -571,6 +571,8 @@ img {
 }
 
 .input-label {
+  display: block; 
+  margin-bottom: 4px; 
   line-height: 1.17;
   letter-spacing: 0.04em;
   font-size: 12px;

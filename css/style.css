@@ -604,8 +604,9 @@ img {
   left: 16px;
 }
 
-.modal-icon :focus {
-  fill: var(--button);
+.div-comment {
+  margin-bottom: 16px;
+  
 }
 
 .modal-coment {

@@ -600,7 +600,6 @@ img {
   outline: transparent; 
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .input-label {
@@ -610,6 +609,13 @@ img {
   letter-spacing: 0.04em;
   font-size: 12px;
   color: var(--company);
+}
+
+.privacy {
+  margin-bottom: 24px;
+}
+
+.checkbox {
 }
 
 .modal-icon {

@@ -615,6 +615,14 @@ img {
   margin-bottom: 24px;
 }
 
+.label-privacy {
+  font-size: 12px; 
+  line-height: 1.17; 
+  letter-spacing: 0.04em; 
+  
+  color: var(--company);
+}
+
 .modal-icon {
   position: absolute;
   top: 50%;

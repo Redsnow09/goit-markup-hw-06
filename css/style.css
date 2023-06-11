@@ -625,7 +625,7 @@ img {
 }
 
 .input-checkbox {
-  visibility: hidden;
+  visually : hidden;
 }
 
 .label-privacy {

@@ -561,8 +561,11 @@ img {
 
 }
 
-.modal-input:focus + .modal-icon {
+.modal-icon:focus {
   fill: var(--button);
+}
+
+.modal-input:focus {
   border-color: var(--button);
 }
 

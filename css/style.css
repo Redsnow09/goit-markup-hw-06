@@ -648,6 +648,9 @@ img {
 
 .visually-hidden:checked + .label-privacy span {
   background-color: var(--buttom-color);
+  border: none; 
+  fill: var(--btn-color);
+  
 }
 
 .privacy-link {

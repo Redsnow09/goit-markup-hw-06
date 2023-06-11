@@ -631,9 +631,10 @@ img {
 }
 
 .label-privacy span {
-  display: block;
-
   color: var(--company);
+}
+.label-span {
+  
 }
 
 .privacy-link {

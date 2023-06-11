@@ -747,7 +747,7 @@ img {
   
 }
 
-.label-sub::placeholder {
+.input::placeholder {
   font-size: 12px;
 line-height: 24px;
 align-items: center;

@@ -622,17 +622,17 @@ img {
 .input-checkbox {
 }
 
-.label-privacy  {
-  display:flex
-  
+.label-privacy {
+  display: flex;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--company);
 }
 
 .label-privacy span {
   display: block;
-  
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
+
   color: var(--company);
 }
 

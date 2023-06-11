@@ -586,6 +586,10 @@ img {
   position: relative; 
 }
 
+.text-comment:focus {
+  border-color:var(--button)
+}
+
 .text-comment {
   width: 100%; 
   height: 120px;

@@ -732,12 +732,17 @@ img {
 
 .mail-input {
   display: flex;
-  margin-left: 56px;
+ 
 }
 
 .form-sub {
   display: flex;
   gap: 24px;
+  
+}
+
+.label-sub {
+  margin-left: 80px;
 }
 
 .input {

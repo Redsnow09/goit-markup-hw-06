@@ -644,6 +644,10 @@ img {
 
 }
 
+.privacy-link {
+  color: var(--button);
+}
+
 .but-submit {
   display: block;
   min-width: 169px;

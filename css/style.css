@@ -561,8 +561,11 @@ img {
 
 }
 
-.modal-input:focus + .modal-icon {
+.modal-input:focus {
   border-color: var(--button);
+}
+
+.modal-icon:focus {
   fill: var(--button);
 }
 
@@ -606,7 +609,7 @@ img {
 
 .div-comment {
   margin-bottom: 16px;
-  
+
 }
 
 .modal-coment {

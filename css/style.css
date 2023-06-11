@@ -628,6 +628,7 @@ img {
 }
 
 .label-privacy span {
+  display: inline-flex; 
   color: var(--company);
 }
 

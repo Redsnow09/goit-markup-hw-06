@@ -48,7 +48,7 @@ img {
 
 .section {
   padding: 120px 0;
-  /* outline: 2px solid greenyellow;*/
+  
 }
 
 .container {
@@ -203,7 +203,6 @@ img {
 }
 
 .icon {
-  display: flex;
   align-items: center;
   justify-content: center;
   max-width: 264px;
